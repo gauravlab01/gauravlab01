@@ -20,3 +20,4 @@ git push -u origin main #after this command we must provide user name and auth t
 
 git git push -u origin HEAD:master #if you want to upload newly changed file to master branch then use this command
 #syntax - git git push -u origin HEAD:<branch_name>
+
