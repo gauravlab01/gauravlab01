@@ -12,7 +12,7 @@ git add README.md
 
 git commit -m "first commit"
 
-git branch -M main
+git branch -M main #here you can define default brance to upload newly changed file, you can write master insted of mail
 
 git remote add origin https://github.com/gauravlab01/gauravlab01.git #command to reconfirm that repo is added
 
