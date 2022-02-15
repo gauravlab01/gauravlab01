@@ -10,6 +10,11 @@ git init
 
 git add README.md
 
+#run below 2 commands if performing commit for first time on machine
+command-1 git config --global user.email "gauravlab01@gmail.com"
+command-2 git config --global user.email "gauravlab01"
+
+
 git commit -m "first commit"
 
 git branch -M main #here you can define default brance to upload newly changed file, you can write master insted of mail
