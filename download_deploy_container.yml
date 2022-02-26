@@ -2,6 +2,15 @@
 - hosts: docker
 
   tasks:
+  - name: stop container
+    command: docker stop regapp
+    
+  - name: delete container
+    command: docker rm regapp
+    
+  - name: delete image
+    command: docker rmi gauravlab01/regapp
+    
   - name: pull docker image
     command: docker pull gauravlab01/regapp:latest
 
