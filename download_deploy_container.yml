@@ -1,0 +1,9 @@
+---
+- hosts: docker
+
+  tasks:
+  - name: pull docker image
+    command: docker pull gauravlab01/regapp:latest
+
+  - name: create container from pulled image
+    command: docker run -d --name regapp-25022022 -p 8081:8080 -t gauravlab01/regapp:latest
